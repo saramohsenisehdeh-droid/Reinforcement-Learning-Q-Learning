@@ -1,11 +1,15 @@
-# Reinforcement-Learning-Q-Learning
-This project implements a Q-learning agent in Python (Gymnasium) to solve the Frozen Lake environment, analyzing both slippery (stochastic) and non-slippery (deterministic) settings. The agent is trained using an ε-greedy policy with different reward structures and exploration decay strategies, and performance is evaluated through multiple refinements of hyperparameters and reward shaping.
+# Q-Learning on Frozen Lake (Gymnasium)
 
-📌 Key Contributions
-Implemented Q-learning from scratch in Frozen Lake (8×8 grid)
-Compared deterministic vs stochastic environments
-Designed and tested different reward shaping strategies
-Experimented with multiple ε-decay schedules (linear and exponential)
-Analyzed learning stability and convergence behavior
-Evaluated performance using training/test episode success rates
-Visualized agent behavior in human and ANSI rendering modes
+This project implements a **Q-learning agent** to solve the **Frozen Lake environment** using the Gymnasium library in Python, developed for the *Computational Neuroscience* course.
+
+The agent is trained under both **slippery (stochastic)** and **non-slippery (deterministic)** settings, and its performance is analyzed under different reward structures and ε-greedy exploration strategies. Several refinements are applied to improve learning stability, convergence speed, and overall success rate.
+
+## Key Points
+
+- Implemented Q-learning from scratch in Frozen Lake (8×8 grid environment)
+- Compared performance in **deterministic vs stochastic** environments  
+- Applied **ε-greedy policy** with different decay strategies (linear and exponential)
+- Performed **reward shaping** to improve learning efficiency
+- Tuned hyperparameters including learning rate, discount factor, and exploration rate
+- Evaluated training and testing performance over multiple episodes
+- Visualized agent behavior in both **human and ANSI rendering modes**
